@@ -83,7 +83,9 @@ public class CSE535Assignment {
 			
 			f.writeFile("\nFUNCTION: docAtATimeQueryAnd "+query_line);
 			f.DAAT_AND(queries);
-			//f.DAAT_OR(queries);
+			
+			f.writeFile("\nFUNCTION: docAtATimeQueryOr "+query_line);
+			f.DAAT_OR(queries);
 		
 		}	
 		
